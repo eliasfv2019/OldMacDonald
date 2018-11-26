@@ -1,15 +1,8 @@
-class Cow  implements Animal//implements Animal 
-{   
-  private String myType, mySound;
+class Cow extends Animal {
   public Cow() {
-    myType = "cow";
-    mySound = "Moooooooooooooooooooooooooooooooooooooooooooooooooo!";
-  }
-  public String getType() {
-    return myType;
+    super("cow", "moo");
   }
   public String getSound() {
-    return mySound;
+    return "moo";
   }
 }
-//your code here

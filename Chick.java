@@ -1,4 +1,10 @@
-class Chick //implements Animal 
-{     
-     //your code here
+class Chick extends Animal
+{
+  public Chick() 
+  {
+    super("chick", "cluck");
+  }
+  public String getSound() {
+    return"oof";
+  }
 }
